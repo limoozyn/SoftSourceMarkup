@@ -132,10 +132,10 @@ li.active.border-on-hover
   width: 50%;
   background-color: #fff;
 }
-.nav-tabs li a{
+.nav-tabs li a,
+.nav-tabs li a:hover{
   border-bottom: 1px solid #005;
 }
-
 .nav-tabs li a,
 .nav-tabs>li.active>a,
 .nav-tabs>li.active>a:focus, 
@@ -148,6 +148,7 @@ li.active.border-on-hover
   line-height: 15px;
   height: 34px;
   border-radius: 0;
+  margin-right: 0;
 }
 .nav-tabs>li.active>a,
 .nav-tabs>li.active>a:focus, 
@@ -222,6 +223,10 @@ li.active.border-on-hover
 }
 .fixed-height-row226{
   height: 226px;
+}
+.btn-filter{
+  max-width: 210px;
+  min-width: 190px;
 }
 .btn-action-small{
   height: 40px;
@@ -406,22 +411,48 @@ li.active.border-on-hover
 }
 /*.btn-action-signin:hover{
 }*/
+.nav-signin{
+  font-family: Roboto;
+  color:  #f3f4f6;
+  font-size: 14px;/* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 20px;/* Approximation due to font substitution */
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  margin-left: 40px;
+}
+
+.nav-signin:hover{
+  margin-top: 9px;
+}
 .navbar-default .navbar-nav.nav-signin li.btn-action-signin.left a,
 .navbar-default .navbar-nav.nav-signin li.btn-action-signin.right a{
   color:  #f3f4f6;
   font-size: 14px;/* Approximation due to font substitution */
   font-weight: 300;
-  line-height: 15px;
+  line-height: 16px;
   padding-top: 9px;
   padding-bottom: 9px;
 }
-.btn-action-signin:hover a
-{
+.navbar-default .navbar-nav.nav-signin:hover li.btn-action-signin.left a,
+.navbar-default .navbar-nav.nav-signin:hover li.btn-action-signin.right a{
+  line-height: 16px;
+  border-top: 1px solid #005;
+  border-bottom: 1px solid #005;
+}
+.navbar-default .navbar-nav.nav-signin li.btn-action-signin.left:hover a,
+.navbar-default .navbar-nav.nav-signin li.btn-action-signin.right:hover a{
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;  
   background-color: #010146;
-  padding-top: 9px;
-  padding-bottom: 9px;
+}
+.navbar-default .navbar-nav.nav-signin li.btn-action-signin.left a:active,
+.navbar-default .navbar-nav.nav-signin li.btn-action-signin.right a:active{
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;  
+  background-color: #fff;
+  color: #005;
 }
 .btn-action-signin.left a{
   padding-left:0;
@@ -432,7 +463,7 @@ li.active.border-on-hover
   border-top:1px solid #fff;
   border-bottom:1px solid #fff;
   margin-right:-5px;
-  padding:8px 5px 9px 5px;
+  padding:9px 5px 9px 5px;
 
 }
 .btn-action-signin.right a{
@@ -444,13 +475,13 @@ li.active.border-on-hover
   border-top:1px solid #fff;
   border-bottom:1px solid #fff;
   margin-left:-5px;
-  padding:8px 5px 9px 5px;
+  padding:9px 5px 9px 5px;
 
 }
 .separator{
   border-left: 1px solid #fff;
   width:0;
-  height: 35px;
+  height: 36px;
 }
 
 .area-wrapper{
@@ -559,16 +590,6 @@ li.active.border-on-hover
 .custom-search::-webkit-input-placeholder { text-align:right; content: "\f002";}
 /* mozilla solution */
 .custom-search:-moz-placeholder { text-align:right; }
-.nav-signin{
-  font-family: Roboto;
-  color:  #f3f4f6;
-  font-size: 14px;/* Approximation due to font substitution */
-  font-weight: 300;
-  line-height: 20px;/* Approximation due to font substitution */
-  text-align: left;
-  margin-top: 10px;
-  margin-bottom: 8px;
-}
 .section-title{
   color: #000055;
   height: 64px;
@@ -1241,6 +1262,9 @@ height: 1px;
     .counters p{
       font-size: 16px;
     }
+    .nav-signin{
+      margin-left:20px;
+    }
     .navbar-form.navbar-right{
       margin-right: 0;
     }
@@ -1395,6 +1419,10 @@ height: 1px;
     }
     .btn-filter-wrapper{
       padding-left: 0;
+      width: 210px;
+      margin-left: auto;
+      margin-right: auto;
+      float: none;
     }
     .it-areas {
       margin-top: 20px;
@@ -1478,6 +1506,14 @@ height: 1px;
   }
   .less768hidden {
     display: none;
+  }
+  .filter-and-action div,
+  .filter-and-action button{
+    display:block;
+    width: 210px;
+    float:none;
+    margin-left: auto;
+    margin-right: auto;
   }
   .btn-link-wrapper{
     margin-top: 0;
@@ -1617,6 +1653,30 @@ height: 1px;
   }
   .area-wrapper:hover{
     width: 130px;
+  }
+  .company-inside-area .section-title{
+    font-size: 18px;
+    height: 104px;
+  }
+  .btn-filter-wrapper{
+    width:190px;
+  }
+  .col-xxs-12{
+    width:100%;
+  }
+  .col-xxs-8{
+    width: 70%;
+    /*width: 195px;*/
+  }
+  .add-someth-wrapper,
+  .btn-filter-wrapper{
+    width: 50%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .add-someth-wrapper{
+    text-align: center;
   }
   .company{
     width: 214px;
