@@ -608,16 +608,18 @@ li.active.border-on-hover
   margin-bottom: 40px;
   height: 52px;
 }
-.company-wrapper{
+.company-wrapper,
+.service-wrapper{
   margin-top: 20px;
 }
-.company{
+.company,
+.service{
   background-color: #F8F8F8;
   width: 260px;
   height: 430px;
   padding: 10px;
 }
-.company:hover{
+.company:hover,.service:hover{
   -moz-box-shadow: 0 0 23px #ccc;
   -webkit-box-shadow: 0 0 23px #ccc;
   box-shadow: 0 0 23px #ccc;
@@ -1301,7 +1303,7 @@ height: 1px;
     .add-someth-wrapper{
       padding: 0;
     }
-    .company{
+    .company,.service{
       width: 212px;
     }
 }
@@ -1458,7 +1460,7 @@ height: 1px;
     .add-someth .content{
       font-size: 17px;
     }
-    .company{
+    .company,.service{
       width: 220px;
     }
     .see-more{
@@ -1466,10 +1468,10 @@ height: 1px;
       margin-bottom: 20px; 
 
     }
-    .fixed-height-row430 .col-sm-4:nth-of-type(4){
+    .company-areas .fixed-height-row430 .col-sm-4:nth-of-type(4){
       display: none;
     }
-    .fixed-height-row430{
+    .company-areas .fixed-height-row430{
       height: 476px;
       padding-top: 23px;
       padding-bottom: 23px;
@@ -1556,11 +1558,20 @@ height: 1px;
     margin: 0 auto;
     padding: 12px;
   }
-  .company{
+  .company,.service{
     width: initial;
     height: 438px;
     margin-left:auto;
     margin-right:auto;
+  }
+  .service .available{
+    right:0;
+    left: 60px;
+  }
+  .service .position-title{
+    text-align: left;
+    font-size: 16px;
+    top:0;
   }
   .social-wrapper{
     text-align: center;   
@@ -1678,7 +1689,7 @@ height: 1px;
   .add-someth-wrapper{
     text-align: center;
   }
-  .company{
+  .company,.service{
     width: 214px;
     height: 325px;
     position: relative;
@@ -1686,6 +1697,7 @@ height: 1px;
   .fixed-height-row430{
     height: 363px;
   }
+  .hidden-on-480,
   .company-request,
   .white-hr{
     display: none;
@@ -1707,7 +1719,7 @@ height: 1px;
     position: absolute;
     top: 170px;
   }
-  .hashtags{
+  .company .hashtags{
     position: absolute;
     top: 200px;
     width: 182px;
@@ -1727,6 +1739,29 @@ height: 1px;
   .contact-person{
     position: absolute;
     top: 120px;
+  }
+  .service .worker{
+    position: absolute;
+    left: 76px;
+  }
+  .service .available {
+    right: 0;
+    left: 120px;
+    top: 50px;
+  }
+  .service .position-title{
+    text-align: center;
+    top: 90px;
+    left: -55px;
+  }
+  .service .hashtags{
+    position: absolute;
+    top: 200px;
+  }
+  .contact-person {
+    position: absolute;
+    top: 60px;
+    left: -26px;
   }
   .area-wrapper:hover:nth-of-type(1),
   .area-wrapper:hover:nth-of-type(2){
@@ -1763,7 +1798,7 @@ height: 1px;
   .whiten-wrapper{
     display: none;  
   }
-  #NewsCarousel .item {
+  #NewsCarousel .item{
     display: block;
   }
   .below-news{
