@@ -1,6 +1,14 @@
 body{
   background-color: #fff;
   font-family: 'Roboto', sans-serif;
+  position: static; 
+  overflow-y: auto;
+}
+.modal-open{
+  padding-right: 0 !important;
+  position: fixed !important; 
+  overflow-y: scroll !important;
+  width: 100%;
 }
 .without-rounded-corners{
   border-radius: 0 !important;
@@ -794,7 +802,7 @@ span.text-content {
   text-align: center;
   margin-top: 33px;
 }
-.counters span{
+.footer-blue-bg .counters span{
   font-family: Roboto;
   color: #000055;
   font-size: 20px; /* Approximation due to font substitution */
@@ -1910,5 +1918,8 @@ height: 1px;
 @media (min-width: 768px){
   .carousel-inner .item{
     display: block;
+  }
+  .carousel-control.custom-carousel-control {
+    display: none;
   }
 }
