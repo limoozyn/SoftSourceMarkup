@@ -43,10 +43,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse menu-collapse navbar-collapse custom-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li class="border-on-hover"><a href="#"><span>БИРЖА</span><span class="sr-only">(current)</span></a></li>
+                <li class="border-on-hover"><a href="exchange_page.html"><span>БИРЖА</span><span class="sr-only">(current)</span></a></li>
                 <li class="border-on-hover"><a href="source_page.html"><span>УСЛУГИ</span></a></li>
-                <li class="border-on-hover"><a href="companies.html"><span>КОМПАНИИ</span></a></li>
-                <li class="active border-on-hover wo-border"><a href="library_page.html"><span>БИБЛИОТЕКА</span></a>
+                <li class="border-on-hover active"><a href="companies.html"><span>КОМПАНИИ</span></a></li>
+                <li class="border-on-hover wo-border"><a href="library_page.html"><span>БИБЛИОТЕКА</span></a></li>
               </ul>
             </div>
 
@@ -75,144 +75,262 @@
       <div class="col-sm-12">
         <ol class="breadcrumb breadcrumb-custom without-rounded-corners">
           <li><a href="#">Главная </a></li>
-          <li class="active">Библиотека</li>
+          <li class="active">Компании</li>
         </ol>
       </div>
     </div>
   </div>
-  <div class="library-areas">
-    <div class="container">
-      <div class="row filters">
-        
-          <div class="col-sm-4 col-md-3 col-lg-2 filter-and-action">
-            <div class="btn-filter">
-              <a href="#">Все договоры
+  <div class=it-areas>
+    <div class="container ">
+      <div class="row fixed-height-row226">
+        <div class="col-xs-6 col-sm-3">
+          <div class="area-wrapper">
+            <div class="area-inner-wrapper">
+              <a href="#" class="area">
+                <span class="passive">FRONT-END</span>
+                <div class="active">
+                  <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JQuery</li>
+                    <li>Bootstrap</li>
+                    <li class="dots">
+                      <i class="fa fa-circle" aria-hidden="true"></i>
+                      <i class="fa fa-circle" aria-hidden="true"></i>
+                      <i class="fa fa-circle" aria-hidden="true"></i>
+                    </li>
+                  </ul>
+                </div>
               </a>
             </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+          <div class="area-wrapper">
+            <div class="area-inner-wrapper">
+              <a href="#" class="area">
+                <span class="passive">BACK-END</span>
+                <div class="active">
+                  <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JQuery</li>
+                    <li>Bootstrap</li>
+                    <li class="dots">
+                      <i class="fa fa-circle" aria-hidden="true"></i>
+                      <i class="fa fa-circle" aria-hidden="true"></i>
+                      <i class="fa fa-circle" aria-hidden="true"></i>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+          <div class="area-wrapper">
+            <div class="area-inner-wrapper">
+              <a href="#" class="area">
+                <span class="passive">DATA BASE</span>
+                <div class="active">
+                  <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JQuery</li>
+                    <li>Bootstrap</li>
+                    <li class="dots">
+                      <i class="fa fa-circle" aria-hidden="true"></i>
+                      <i class="fa fa-circle" aria-hidden="true"></i>
+                      <i class="fa fa-circle" aria-hidden="true"></i>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+          <div class="area-wrapper">
+            <div class="area-inner-wrapper">
+              <a href="#" class="area">
+                <span class="passive">DESIGN</span>
+                <div class="active">
+                  <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JQuery</li>
+                    <li>Bootstrap</li>
+                    <li class="dots">
+                      <i class="fa fa-circle" aria-hidden="true"></i>
+                      <i class="fa fa-circle" aria-hidden="true"></i>
+                      <i class="fa fa-circle" aria-hidden="true"></i>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row filters">
+        <div class="col-sm-4 col-md-3 col-lg-2 filter-and-action">
+          <div class="btn-filter">
+            <a href="#">Все компании</a>
+          </div>
         </div>
         <div class="col-sm-4 col-md-3 col-lg-3 filter-and-action">
-          <button class="btn-action-small add-someth" data-toggle="modal" data-target="#addDocument">
-            <p class="content">Добавить договор</p>
+          <button class="btn-action-small add-someth" data-toggle="modal" data-target="#addCompany">
+            <p class="content">Добавить компанию</p>
           </button>
         </div>
-      
-    </div>
-  </div>
-  <div class="documents-areas">
-    <div class="container">
-      <div class="document-types">
-        <span>Договоры с заказчиками</span>
+      </div>
+      <div class="related-tags">
+        <span class="related-tags">Относящиеся теги</span>
       </div> 
-      <div class="row documents-by-four">
-        <div class="col-sm-3">
-          <div class="document">
-            <img class="thumbnail" src="images/document-thumbnail.jpg">
-          </div>
-          <span class="shaded-icon glyphicon glyphicon-download-alt"></span><span class="watched"> 24 раза</span>
-          <p class="doc-description">Договор на разработку программного продуукта</p>
-          <p class="language">На английском и русском языках</p>
-        </div>
-        <div class="col-sm-3">
-          <div class="document">
-            <img class="thumbnail" src="images/document-thumbnail.jpg">
-          </div>
-          <span class="shaded-icon glyphicon glyphicon-download-alt"></span><span class="watched"> 24 раза</span>
-          <p class="doc-description">Договор на разработку программного продуукта</p>
-          <p class="language">На английском и русском языках</p>
-        </div>
-        <div class="col-sm-3">
-          <div class="document">
-            <img class="thumbnail" src="images/document-thumbnail.jpg">
-          </div>
-          <span class="shaded-icon glyphicon glyphicon-download-alt"></span><span class="watched"> 24 раза</span>
-          <p class="doc-description">Договор на разработку программного продуукта</p>
-          <p class="language">На английском и русском языках</p>
-        </div>
-        <div class="col-sm-3">
-          <div class="document">
-            <img class="thumbnail" src="images/document-thumbnail.jpg">
-          </div>
-          <span class="shaded-icon glyphicon glyphicon-download-alt"></span><span class="watched"> 24 раза</span>
-          <p class="doc-description">Договор на разработку программного продуукта</p>
-          <p class="language">На английском и русском языках</p>
-        </div>
-        <div class="col-sm-3">
-          <div class="document">
-            <img class="thumbnail" src="images/document-thumbnail.jpg">
-          </div>
-          <span class="shaded-icon glyphicon glyphicon-download-alt"></span><span class="watched"> 24 раза</span>
-          <p class="doc-description">Договор на разработку программного продуукта</p>
-          <p class="language">На английском и русском языках</p>
-        </div>
-        <div class="col-sm-3">
-          <div class="document">
-            <img class="thumbnail" src="images/document-thumbnail.jpg">
-          </div>
-          <span class="shaded-icon glyphicon glyphicon-download-alt"></span><span class="watched"> 24 раза</span>
-          <p class="doc-description">Договор на разработку программного продуукта</p>
-          <p class="language">На английском и русском языках</p>
+      <div class="row tags">
+        <div class="col-sm-12">
+          <a>C/C++</a>
+          <a>CMS</a>
+          <a class="active">CSS3</a>
+          <a>CassandraDB</a>
+          <a>Cocos2d</a>
+          <a>Cordova</a>
+          <a>Crystal Reports</a>
+          <a>DBA Oracle</a>
+          <a> DataBase</a> DevOps</a>
+          <a>Django </a>
+          <a>Drupal</a>
+          <a>Erlang </a>
+          <a>Express.js</a>
+          <a>Flash</a>
+          <a>Front-end</a>
+          <a>Full-Stack</a>
+          <a>Game</a>
+          <a>Designer</a>
+          <a>Game Development</a>
+          <a>GitHub</a>
+          <a>Go   </a>
+          <a>Grunt </a>
+          <a> HTML5</a>
+          <a>Hadoop</a>
+          <a>Heroku</a>
+          <a>Hybris</a>
         </div>
       </div>
     </div>
   </div>
-  <div class="documents-areas">
+  <div class="companies-table">
     <div class="container">
-      <div class="document-types">
-        <span>Договоры с сотрудниками</span>
-      </div> 
-      <div class="row documents-by-four">
-        <div class="col-sm-3">
-          <div class="document">
-            <img class="thumbnail" src="images/document-thumbnail.jpg">
-          </div>
-          <span class="shaded-icon glyphicon glyphicon-download-alt"></span><span class="watched"> 24 раза</span>
-          <p class="doc-description">Договор на разработку программного продуукта</p>
-          <p class="language">На английском и русском языках</p>
-        </div>
-        <div class="col-sm-3">
-          <div class="document">
-            <img class="thumbnail" src="images/document-thumbnail.jpg">
-          </div>
-          <span class="shaded-icon glyphicon glyphicon-download-alt"></span><span class="watched"> 24 раза</span>
-          <p class="doc-description">Договор на разработку программного продуукта</p>
-          <p class="language">На английском и русском языках</p>
-        </div>
-        <div class="col-sm-3">
-          <div class="document">
-            <img class="thumbnail" src="images/document-thumbnail.jpg">
-          </div>
-          <span class="shaded-icon glyphicon glyphicon-download-alt"></span><span class="watched"> 24 раза</span>
-          <p class="doc-description">Договор на разработку программного продуукта</p>
-          <p class="language">На английском и русском языках</p>
-        </div>
-      </div>
+      <table class="table table-bordered table-responsive">
+        <thead>
+          <tr class="table-header">
+            <th></th>
+            <th>Название <div class="sort active">&darr;</div><div class="sort">&uarr;</div></th>
+            <th>Технологии</th>
+            <th>Сотрудники <div class="sort active">&darr;</div><div class="sort">&uarr;</div></th>
+            <th>Рейт <div class="sort active">&darr;</div><div class="sort">&uarr;</div></th>
+            <th>С нами <div class="sort active">&darr;</div><div class="sort">&uarr;</div></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="company_inside_page.html"><img src="images/711media.png"></a></td>
+            <td>7WebPages</td>
+            <td class="technologies"><a>jquery</a>   <a>angularjs</a>   <a>php5</a> <a>server</a> <a>adminstration</a> <a>contao</a>   <a>symfony2</a>  
+<a>laravel</a>   <a>silex</a>   <a>html5</a> <a>typo3</a>   <a>javascript</a></td>
+            <td>От 5 до 10</td>
+            <td>От 25 до 30</td>
+            <td>1 г. 6 мес.</td>
+          </tr>
+          <tr>
+            <td><a href="company_inside_page.html"><img src="images/comment-wo-avatar.png"></a></td>
+            <td>711media development Ltd.</td>
+            <td class="technologies"><a>python</a>   <a>django</a></td>
+            <td>От 5 до 10</td>
+            <td></td>
+            <td>1 г.</td>
+          </tr>
+          <tr>
+            <td><a href="company_inside_page.html"><img src="images/comment-wo-avatar.png"></a></td>
+            <td>711media development Ltd.</td>
+            <td class="technologies"><a>python</a>   <a>django</a></td>
+            <td></td>
+            <td></td>
+            <td>1 г.</td>
+          </tr>
+          <tr>
+            <td><a href="company_inside_page.html"><img src="images/comment-wo-avatar.png"></a></td>
+            <td>711media development Ltd.</td>
+            <td class="technologies"><a>python</a>   <a>django</a></td>
+            <td></td>
+            <td></td>
+            <td>1 г.</td>
+          </tr>
+          <tr>
+            <td><a href="company_inside_page.html"><img src="images/comment-wo-avatar.png"></a></td>
+            <td>711media development Ltd.</td>
+            <td class="technologies"><a>python</a>   <a>django</a></td>
+            <td></td>
+            <td>От 25 до 30</td>
+            <td>1 г.</td>
+          </tr>
+          <tr>
+            <td><a href="company_inside_page.html"><img src="images/amazon-ws.png"></a></td>
+            <td>Amazon Web Services administration</td>
+            <td class="technologies"><a>python</a>   <a>django</a></td>
+            <td>От 5 до 10</td>
+            <td></td>
+            <td>1 г.</td>
+          </tr>
+          <tr>
+            <td><a href="company_inside_page.html"><img src="images/comment-wo-avatar.png"></ href="company_inside_page.html"a></td>
+            <td>711media development Ltd.</td>
+            <td class="technologies"><a>python</a>   <a>django</a></td>
+            <td></td>
+            <td></td>
+            <td>1 г.</td>
+          </tr>
+          <tr>
+            <td><a href="company_inside_page.html"><img src="images/comment-wo-avatar.png"></a></td>
+            <td><a>711media development Ltd.</td>
+            <td class="technologies"><a>python</a>   <a>django</a></td>
+            <td></td>
+            <td></td>
+            <td>1 г.</td>
+          </tr>
+          <tr>
+            <td><a href="company_inside_page.html"><img src="images/comment-wo-avatar.png"></a></td>
+            <td>711media development Ltd.</td>
+            <td class="technologies"><a>python</a>   <a>django</a></td>
+            <td></td>
+            <td>От 25 до 30</td>
+            <td>1 г.</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
-  <div class="documents-areas">
-    <div class="container">
-      <div class="document-types">
-        <span>NDA</span>
-      </div> 
-      <div class="row documents-by-four">
-        <div class="col-sm-3">
-          <div class="document">
-            <img class="thumbnail" src="images/document-thumbnail.jpg">
-          </div>
-          <span class="shaded-icon glyphicon glyphicon-download-alt"></span><span class="watched"> 24 раза</span>
-          <p class="doc-description">Договор на разработку программного продуукта</p>
-          <p class="language">На английском и русском языках</p>
-        </div>
-        <div class="col-sm-3">
-          <div class="document">
-            <img class="thumbnail" src="images/document-thumbnail.jpg">
-          </div>
-          <span class="shaded-icon glyphicon glyphicon-download-alt"></span><span class="watched"> 24 раза</span>
-          <p class="doc-description">Договор на разработку программного продуукта</p>
-          <p class="language">На английском и русском языках</p>
-        </div>
-      </div>
-    </div>
+  <div class="row pagination-wrapper">
+  <div class="col-sm-6 col-sm-offset-3">
+    <ul class="pagination">
+      <li>
+        <a class="control" href="#" aria-label="Previous">
+          <span aria-hidden="true">&#8592;</span>
+        </a>
+      </li>
+      <li class="active"><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">5</a></li>
+      <li>
+        <a class="control" href="#" aria-label="Next">
+          <span aria-hidden="true">&#8594;</span>
+        </a>
+      </li>
+    </ul>
   </div>
+</div>
   </body>
   <div class="navbar-fluid footer-blue-bg">
     <div class="navbar-inner">
@@ -345,39 +463,70 @@
       </div>
     </div>
   </div>
-
-  <div class="modal fade" id="addDocument" role="dialog">
+  <div class="modal fade" id="addCompany" role="dialog">
     <div class="modal-dialog">
     
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="custom-modal-title">Добавить договор</h4>
+          <h4 class="custom-modal-title">Добавить компанию</h4>
         </div>
         <div class="modal-body">
           <form>
             <fieldset class="form-group">
-              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Имя">
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Тема">
             </fieldset>
-            <fieldset>
-              <select>
-                <option value="" disabled selected>Раздел</option>
-                <option value="1" >Договоры с заказчиками</option>
-                <option value="2" >Договоры с сотрудниками</option>
-                <option value="3" >NDA</option>
-              </select>
+            <fieldset class="form-group">
+              <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Описание"></textarea>
             </fieldset>
             <fieldset class="form-group posRel">
               <label for="exampleInputFile" class="file-lbl">Файл</label>
+              
               <button id="exampleInputFileButton" class="btn-action-small posAbs">
                 <p class="download-content">Загрузить файл</p>
               </button>
               <input type="file" class="form-control-file" id="exampleInputFile">
               <label for="exampleInputFile" class="file-status" id="fileLabel">Файл не загружен</label>
+              <small class="text-muted">Расширение файла: doc, docx, rtf, csv, xla, xls, xlsb, xlsx, xltx, odp, potx, ppa, ppt, pptx, txt, pdf, djvu</small>
+
+              <button class="more-files"><span >Загрузить больше файлов</span></button>
             </fieldset>
+            <div class="radio">
+              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+              <label for="optionsRadios1">
+                Бесплатно
+              </label>
+            </div>
+            <div class="radio">
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+              <label for="optionsRadios2">
+                За лид
+              </label><select disabled>
+                <option value="5">5$</option>
+                <option value="10">10$</option>
+                <option value="20">20$</option>
+                <option value="100">100$</option>
+              </select>
+            </div>
+            <div class="radio">
+                <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" >
+              <label for="optionsRadios3">
+                За процент
+              </label><select disabled>
+                <option value="5">5$</option>
+                <option value="10">10$</option>
+                <option value="20">20$</option>
+                <option value="100">100$</option>
+              </select><select disabled>
+                <option value="12">12 месяцев</option>
+                <option value="6">6 месяцев</option>
+                <option value="3">3 месяца</option>
+                <option value="1">1 месяц</option>
+              </select>
+            </div>
             <fieldset class="form-group">
-              <textarea class="form-control" id="exampleTextarea2" rows="3" placeholder="Описание"></textarea>
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Технология">
             </fieldset>
             <div class="centered-content">
               <button type="submit" class="btn-action-small">

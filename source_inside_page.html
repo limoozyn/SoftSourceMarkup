@@ -24,7 +24,7 @@
                 <span class="sr-only">Toggle navigation</span>
                 <i class="fa fa-key" aria-hidden="true"></i>
               </button>
-              <a class="navbar-brand custom-brand" href="#">
+              <a class="navbar-brand custom-brand" href="main_page.html">
                 <img class="logo-bottom" src="images/logo.png">
                 <!-- <div class="logo-bottom"></div> -->
               </a>
@@ -43,10 +43,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse menu-collapse navbar-collapse custom-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li class="active border-on-hover"><a href="#"><span>БИРЖА</span><span class="sr-only">(current)</span></a></li>
-                <li class="border-on-hover"><a href="source_page.html"><span>УСЛУГИ</span></a></li>
-                <li class="border-on-hover"><a href="company_page.html"><span>КОМПАНИИ</span></a></li>
-                <li class="border-on-hover wo-border"><a href="library_page.html"><span>БИБЛИОТЕКА</span></a>
+                <li class="border-on-hover"><a href="exchange_page.html"><span>БИРЖА</span><span class="sr-only">(current)</span></a></li>
+                <li class="border-on-hover active"><a href="source_page.html"><span>УСЛУГИ</span></a></li>
+                <li class="border-on-hover"><a href="companies.html"><span>КОМПАНИИ</span></a></li>
+                <li class="border-on-hover wo-border"><a href="library_page.html"><span>БИБЛИОТЕКА</span></a></li>
               </ul>
             </div>
 
@@ -97,7 +97,7 @@
           </div>
         </div>
         <div class="col-sm-4 col-md-3 col-lg-3 filter-and-action">
-          <button class="btn-action-small add-someth" data-toggle="modal" data-target="#addCompany">
+          <button class="btn-action-small add-someth" data-toggle="modal" data-target="#addService">
             <p class="content">Добавить услугу</p>
           </button>
         </div>
@@ -111,14 +111,14 @@
         <div class="company-desc-area">
           <p class="desc-title">Обо мне:</p>
           <hr class="dark-hr">
-          <p class="brief">I love wriring succinct, maintainable ruby code and value clear communication above nearly everything else.</p>
+          <p class="brief">I love writing succinct, maintainable ruby code and I value clear communication above nearly everything else. My recent projects include an entire billing system for www.adjust.com, an asynchronous CSV importer with Soundcloud API integration for an as-yet unreleased project, and a new feature for the open source route_translator gem.  Given the choice when starting a new web app, I use Ruby 2.1 and Rails 4 with PostgreSQL, Coffeescript, Rspec, SASS and HAML. I am also extremely comfortable with jQuery, older versions of Rails, HTML, AJAX, and Javascript and I have experience working with AngularJS (although I'm currently learning Ember.js).  I love git (and github!) and made a gem for one of my previous employers (since downloaded over 17,000 times) adding github/pivotal tracker issue tracking to any git project, as well as automating the merge and deploy process.</p>
         </div>
         </div>
         <div class="col-sm-4">
           <div class="source-contacts-area">
             <div class="row">
               <div class="col-sm-6">
-                <img class="company-logo" src="images/Nabus.png">
+                <img class="source-face" src="images/dybenko-face.png">
                 <p class="date">
                   <span class="time-wrapper"><time datetime="2016-02-14T08:00">14.02.2016</time></span>
                   <span class="watched"><i class="fa fa-eye" aria-hidden="true"></i> 23</span>
@@ -238,14 +238,14 @@
       </div>
     </div>
   </div>
-    <div class="modal fade" id="addCompany" role="dialog">
+  <div class="modal fade" id="addService" role="dialog">
     <div class="modal-dialog">
     
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="custom-modal-title">Добавить компанию</h4>
+          <h4 class="custom-modal-title">Добавить услугу</h4>
         </div>
         <div class="modal-body">
           <form>
@@ -268,36 +268,12 @@
               <button class="more-files"><span >Загрузить больше файлов</span></button>
             </fieldset>
             <div class="radio">
-                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
               <label>
-                Бесплатно
-              </label>
-            </div>
-            <div class="radio">
-                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-              <label>
-                За лид
-              </label><select disabled>
-                <option value="5">5$</option>
-                <option value="10">10$</option>
-                <option value="20">20$</option>
-                <option value="100">100$</option>
-              </select>
-            </div>
-            <div class="radio">
-                <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" >
-              <label>
-                За процент
-              </label><select disabled>
-                <option value="5">5$</option>
-                <option value="10">10$</option>
-                <option value="20">20$</option>
-                <option value="100">100$</option>
-              </select><select disabled>
-                <option value="12">12 месяцев</option>
-                <option value="6">6 месяцев</option>
-                <option value="3">3 месяца</option>
-                <option value="1">1 месяц</option>
+                Статус
+              </label><select>
+                <option value="0">Не указано</option>
+                <option value="1">Ищем</option>
+                <option value="2">Доступны</option>
               </select>
             </div>
             <fieldset class="form-group">
