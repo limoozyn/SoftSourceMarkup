@@ -1078,10 +1078,157 @@ input[type=file]{
   margin-bottom: 30px;
 }
 /*company inside page*/
-.company-areas{
+.company-areas,
+.news-areas{
   margin-bottom: 25px;
 }
-
+.news-areas .border-on-top{
+  border-top: 1px solid #f1f1f1;
+}
+.news-areas span{
+  margin-right: 20px;
+}
+.news-areas .time-wrapper,
+.news-areas .journalist{
+  font-family: Roboto;
+  color: #7f7f7f;
+  font-size: 12px; /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 18px; /* Approximation due to font substitution */
+  text-align: left;
+}
+.news-areas i{
+  margin-right: 2px;
+}
+.news-areas .journalist a{
+  color: #0a458f;
+  text-decoration: underline;
+}
+.news-areas .watched{
+  font-family: Roboto;
+  color: #a2a498;
+  font-size: 12px; /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 24px; /* Approximation due to font substitution */
+  text-align: left;
+}
+.news-areas img{
+  float: left;
+  margin: 0 30px 7px 0;
+}
+.news-areas .news-doc-wrapper{
+  display: block;
+  margin-top: 30px;
+  padding-left: 0;
+}
+.news-areas .social-section{
+  display: block;
+  padding-left: 0;
+  margin-bottom: 40px;
+}
+.news-areas .section-underline{
+  background-color: #000055;
+  width: 100%;
+  height: 1px;
+  margin-bottom: 20px;
+  padding-left: 0;
+}
+.news-areas .comments-section{
+  display: block;
+  padding-left: 0;
+  margin-bottom: 20px;
+  font-family: Roboto;
+  color: #000055;
+  font-size: 18px; /* Approximation due to font substitution */
+  font-weight: 400;
+  line-height: 24px; /* Approximation due to font substitution */
+  text-align: left;
+}
+.news-areas .comment{
+  margin-top: 30px;
+}
+.news-areas .follow{
+  margin-top: 20px;
+}
+.news-areas .subscribe-on-comments{
+  font-family: Roboto;
+  color: #1567bb;
+  font-size: 14px; /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 24px; /* Approximation due to font substitution */
+  text-decoration: underline;
+  text-align: left;
+}
+.news-areas .comment-input{
+  border: 1px solid #005;
+  width: 100%;
+}
+.news-areas .notify-label{
+  font-family: Roboto;
+  color: #000000;
+  font-size: 14px; /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 24px; /* Approximation due to font substitution */
+  text-align: left;
+}
+.news-areas .submit-wrapper{
+  background-color: #005;
+  height: 40px;
+  width: 233px;
+  float: right;
+}
+.news-areas .leave-comment{
+  font-family: Roboto;
+  color: #fff;
+  display: block;
+  font-size: 18px; /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 40px; /* Approximation due to font substitution */
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  width: 210px;
+  margin:0 auto;
+}
+.side-section h2{
+  font-family: 'Open Sans';
+  color: #000055;
+  font-size: 18px; /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 48px; /* Approximation due to font substitution */
+  text-align: left;
+  margin-top: 0;
+  line-height: 24px;
+}
+.side-section a{
+  font-family: Roboto;
+  color: #8c8d8f;
+  font-size: 16px; /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 26px; /* Approximation due to font substitution */
+  text-align: left;
+}
+.side-section a.active{
+  font-family: Roboto;
+  color: #000055;
+  font-size: 16px; /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 26px; /* Approximation due to font substitution */
+  text-decoration: underline;
+  text-align: left;
+}
+.side-section .latest-news{
+  margin-top: 30px;
+}
+.side-section a p{
+  font-family: Roboto;
+  color: #000055;
+  font-size: 12px; /* Approximation due to font substitution */
+  font-weight: 300;
+  text-align: left;
+  line-height: 14px;
+  text-align: justify;
+}
 .company-desc-area{
   background-color: #f8f8f8;
   padding: 35px 25px;
@@ -1091,6 +1238,7 @@ input[type=file]{
   font-weight: 300;
   line-height: 24px; /* Approximation due to font substitution */
   text-align: left;
+  min-height: 470px;
 }
 .desc-title{
   font-family: Roboto;
@@ -1137,6 +1285,7 @@ height: 1px;
 }
 .company-desc-area .btn-action{
   width: 261px;
+  background-color: #f8f8f8;
 }
 .company-contact-person{
   font-family: Roboto;
@@ -1147,6 +1296,7 @@ height: 1px;
   margin-top: 35px;
   text-align: left;
 }
+.source-contacts-area .source-title,
 .company-contacts-area .company-title{
   font-family: Roboto;
   color: #000055;
@@ -1155,9 +1305,11 @@ height: 1px;
   line-height: 30px; /* Approximation due to font substitution */
   text-align: left;
 }
+.source-contacts-area,
 .company-contacts-area{
   position: relative;
 }
+.source-contacts-area span,
 .company-contacts-area span{
   font-family: Roboto;
   color: #5d5d5e;
@@ -1171,19 +1323,30 @@ height: 1px;
   top: 135px;
   left: 20px;
 }
-.company-contacts-area .social-round{
+.source-contacts-area .social-round,
+.company-contacts-area .social-round,
+.social-section .social-round{
   border-color: #03034a;
   width: 36px;
   height: 36px;
   padding: 6px;
 }
-.company-contacts-area .btn-social-icon:first-of-type{
+.social-section .social-round img{
+  float:none;
+  margin: 0;
+}
+.source-contacts-area .btn-social-icon:first-of-type,
+.company-contacts-area .btn-social-icon:first-of-type,
+.social-section .btn-social-icon:first-of-type{
   padding-left:0;
 }
+.source-contacts-area .btn-social-icon:last-of-type,
 .company-contacts-area .btn-social-icon:last-of-type{
   padding-right:0;
 }
+.source-contacts-area .date,
 .company-contacts-area .date,
+.source-contacts-area .hashtag,
 .company-contacts-area .hashtag{
   font-family: Roboto;
   color: #a2a498;
@@ -1192,12 +1355,72 @@ height: 1px;
   line-height: 24px;/* Approximation due to font substitution */
   text-align: left;
 }
+.source-contacts-area .date-and-hashtags,
 .company-contacts-area .date-and-hashtags{
   margin-top: 40px;
 }
+.source-contacts-area .icon-comment,
 .company-contacts-area .icon-comment{
   font-size: 16px; /* Approximation due to font substitution */
   padding-left: 8px;
+}
+.source-contacts-area .time-wrapper{
+  float: left;
+}
+.source-contacts-area .watched{
+  padding-left: 30px;
+}
+.source-contacts-area .source-title-small,
+.source-contacts-area .source-company{
+  font-size: 16px; /* Approximation due to font substitution */
+  /*padding-left: 8px; */
+}
+.source-contacts-area .company-link{
+  color: #005;
+}
+.news-rows{
+  margin-top: 40px;
+}
+.pagination-wrapper{
+  margin-bottom: 30px;
+}
+.pagination{
+  margin-left:auto;
+  margin-right: auto;
+  width: 242px;
+  position: relative;
+  display: block;
+}
+.pagination li.active>a,
+.pagination li.active>a:hover{
+  background-color: #005;
+}
+.pagination>li:first-child>a, 
+.pagination>li:first-child>span{
+  margin-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.pagination>li:last-child>a, 
+.pagination>li:last-child>span{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.pagination>li:first-child>a.control{
+  border-top:0;
+  border-bottom:0;
+  border-left: 0;
+  background-color: none;
+}
+.pagination>li:last-child>a.control{
+  border-top:0;
+  border-bottom:0;
+  border-right:0;
+  background-color: none;
+}
+.pagination>li:first-child>a.control:hover,
+.pagination>li:last-child>a.control:hover{
+  background-color: transparent; 
 }
 .email-client .content{
   font-family: Roboto;
@@ -1215,7 +1438,8 @@ height: 1px;
   background-color: transparent;
 }
 .company-inside-area,
-.library-areas{
+.library-areas,
+.news-inside-area{
   margin-top: 30px;
 }
 .receiver{
@@ -1674,7 +1898,8 @@ height: 1px;
   .area-wrapper:hover{
     width: 130px;
   }
-  .company-inside-area .section-title{
+  .company-inside-area .section-title,
+  .news-inside-area .section-title{
     font-size: 18px;
     height: 104px;
   }
