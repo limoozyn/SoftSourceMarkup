@@ -1225,10 +1225,12 @@ input[type=file]{
   text-align: left;
 }
 .news-areas .submit-wrapper{
-  background-color: #005;
   height: 40px;
-  width: 233px;
+  width: 222px;
   float: right;
+}
+.news-areas .submit-wrapper p{
+  font-size: 18px;
 }
 .news-areas .leave-comment{
   font-family: Roboto;
