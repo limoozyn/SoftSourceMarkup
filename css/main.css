@@ -815,6 +815,9 @@ span.text-content {
   width: 100%;
   position: relative;
 }
+#NewsCarousel .watched{
+  margin-left: 10px;
+}
 .footer-blue-bg{
   height: 167px;
   background-color: #005;
@@ -1425,7 +1428,7 @@ height: 1px;
   float: left;
 }
 .source-contacts-area .watched{
-  padding-left: 60px;
+  padding-left: 50px;
 }
 .source-contacts-area .time-wrapper,
 .source-contacts-area .watched{
@@ -1893,6 +1896,7 @@ height: 1px;
   #NewsCarousel  .control-icon-right{
     top: 40%;
   }
+
   .control-icon-left,
   .control-icon-right,
   .control-icon-left:hover,
