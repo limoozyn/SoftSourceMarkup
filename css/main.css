@@ -1126,6 +1126,9 @@ input[type=file]{
   width: 100%;
   margin-bottom: 30px;
 }
+#technology{
+  margin-top:20px;
+}
 /*company inside page*/
 .company-areas,
 .news-areas{
@@ -1359,6 +1362,7 @@ height: 1px;
   font-weight: 400;
   line-height: 30px; /* Approximation due to font substitution */
   text-align: left;
+  margin-bottom: 0;
 }
 .source-contacts-area,
 .company-contacts-area{
