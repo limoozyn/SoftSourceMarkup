@@ -1026,11 +1026,13 @@ input[type=file]{
 .invisible{
   display: none;
 }
+#addOrder .posRel,
 #addCompany .posRel,
 #addDocument .posRel,
 #addService .posRel{
   position: relative;
 }
+#addOrder .posAbs,
 #addCompany .posAbs,
 #addService .posAbs
 {
@@ -1045,6 +1047,7 @@ input[type=file]{
   top: -3px;
   left:50px;
 }
+#addOrder textarea,
 #addCompany textarea,
 #emailClient textarea,
 #addDocument textarea{
@@ -1079,9 +1082,12 @@ input[type=file]{
   background: none;
   border: none;
 }
+#addOrder .radio input[type=radio],
 #addCompany .radio input[type=radio]{
   margin-left: 0;
 }
+#addOrder .radio label,
+#addOrder .radio select,
 #addCompany .radio label,
 #addCompany .radio select{
   margin-right: 10px;
@@ -1089,6 +1095,8 @@ input[type=file]{
 #addService select{
   margin-left: 10px;
 }
+#addOrder .radio option,
+#addOrder .radio select,
 #addCompany .radio option,
 #addCompany .radio select,
 #addService select{
@@ -1100,6 +1108,7 @@ input[type=file]{
   line-height: 24px; /* Approximation due to font substitution */
   text-align: left;
 }
+#addOrder .radio select,
 #addCompany .radio select,
 #addService select{
   border-width: 1px;
