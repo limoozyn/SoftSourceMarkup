@@ -308,8 +308,20 @@ li.active.border-on-hover
   margin-right: auto;
   width: 130px;
 }
+.apply
+{
+  bottom: 25px;
+  background-color: #f8f8f8;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 145px;
+}
 .communicate .content,
-.add-someth .content{
+.add-someth .content,
+.apply .content{
   background-color: #f8f8f8;
   text-align: center;
   font-size: 18px;
