@@ -1649,7 +1649,7 @@ input[type=file]{
   text-align: left;
 }
 .email-client:hover{
-  border-color:#005;
+  background-color:#005;
 }
 .email-client:hover .content{
   color: #fff;
