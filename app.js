@@ -5,6 +5,12 @@ function readyFn(){
     exampleInputFile.click();
     return false;
 }
+$('.modal').on('shown.bs.modal', function(e){
+    $('*[data-toggle="modal"]').one('focus', function(e){$(this).blur();});
+});
+$('.add-note-trigger').click(function(){
+  $('.toggled').slideToggle();
+});
 $('#addCompany').on('change','#exampleInputFile' , function(){ 
       var a = document.getElementById('exampleInputFile');
       var fileLabel = document.getElementById('fileLabel');

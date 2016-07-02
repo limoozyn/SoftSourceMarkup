@@ -25,9 +25,9 @@ body{
 {
   font-family: Roboto;
   color: #b1b6bd;
-  font-size: 12px; /* Approximation due to font substitution */
+  font-size: 12px;
   font-weight: 300;
-  line-height: 30px; /* Approximation due to font substitution */
+  line-height: 30px;
   text-align: left;
 }
 .navbar-wrapper{
@@ -107,9 +107,9 @@ li.active.border-on-hover
 .remember{
   font-family: Roboto;
   color: #5d5d5e;
-  font-size: 14px; /* Approximation due to font substitution */
+  font-size: 14px;
   font-weight: 300;
-  line-height: 30px; /* Approximation due to font substitution */
+  line-height: 30px;
   text-align: left;
 }
 .forgot-password{
@@ -151,7 +151,7 @@ li.active.border-on-hover
 .nav-tabs>li.active>a:hover{
   font-family: Roboto;
   color: #000055;
-  font-size: 18px; /* Approximation due to font substitution */
+  font-size: 18px;
   font-weight: 400;
   text-align: center;
   line-height: 15px;
@@ -184,9 +184,9 @@ li.active.border-on-hover
   text-align: center;
   font-family: Roboto;
   color: #000055;
-  font-size: 30px; /* Approximation due to font substitution */
+  font-size: 30px;
   font-weight: 300;
-  line-height: 30px; /* Approximation due to font substitution */
+  line-height: 30px;
   text-align: center;
 }
 .jumbotron .counters{
@@ -281,9 +281,9 @@ li.active.border-on-hover
 .btn-filter a{
   font-family: Roboto;
   color: #000055;
-  font-size: 18px; /* Approximation due to font substitution */
+  font-size: 18px;
   font-weight: 300;
-  line-height: 38px; /* Approximation due to font substitution */
+  line-height: 38px;
 }
 .btn-filter:hover
 {
@@ -545,7 +545,7 @@ li.active.border-on-hover
 .area-wrapper:hover .passive{
   font-family: Roboto;
   color: #fefefe;
-  font-size: 18px; /* Approximation due to font substitution */
+  font-size: 18px;
   font-weight: 300;
   text-align: center;
 }
@@ -635,9 +635,9 @@ li.active.border-on-hover
 .companies-table .table-header th{
   font-family: Roboto;
   color: #000055;
-  font-size: 16px; /* Approximation due to font substitution */
+  font-size: 16px;
   font-weight: 300;
-  line-height: 24px; /* Approximation due to font substitution */
+  line-height: 24px;
   text-align: center;
 }
 .companies-table thead th .sort{
@@ -654,9 +654,9 @@ li.active.border-on-hover
 .companies-table tbody tr td{
   font-family: Roboto;
   color: #000;
-  font-size: 14px; /* Approximation due to font substitution */
+  font-size: 14px;
   font-weight: 300;
-  line-height: 24px; /* Approximation due to font substitution */
+  line-height: 24px;
   text-align: center;
   vertical-align: middle;
 
@@ -668,9 +668,9 @@ li.active.border-on-hover
 .companies-table tbody td.technologies a{
   font-family: Roboto;
   color: #000000;
-  font-size: 14px; /* Approximation due to font substitution */
+  font-size: 14px;
   font-weight: 300;
-  line-height: 24px; /* Approximation due to font substitution */
+  line-height: 24px;
   text-decoration: underline;
   text-align: left;
 }
@@ -792,9 +792,9 @@ a.whiten img{
 span.text-content {
   font-family: Roboto;
   color: #000055;
-  font-size: 14px; /* Approximation due to font substitution */
+  font-size: 14px;
   font-weight: 400;
-  line-height: 24px; /* Approximation due to font substitution */
+  line-height: 24px;
   background: rgba(255,255,255,0.75);
   cursor: pointer;
   display: block;
@@ -818,9 +818,9 @@ span.text-content {
 .below-news-item{
   font-family: Roboto;
   color: #09156e;
-  font-size: 16px; /* Approximation due to font substitution */
+  font-size: 16px;
   font-weight: 300;
-  line-height: 24px; /* Approximation due to font substitution */
+  line-height: 24px;
   text-align: left;
 }
 .whiten-wrapper{
@@ -858,18 +858,18 @@ span.text-content {
 .counters h3{
   font-family: Roboto;
   color: #000055;
-  font-size: 30px; /* Approximation due to font substitution */
+  font-size: 30px;
   font-weight: 300;
-  line-height: 30px; /* Approximation due to font substitution */
+  line-height: 30px;
   text-align: center;
   margin-top: 33px;
 }
 .footer-blue-bg .counters span{
   font-family: Roboto;
   color: #000055;
-  font-size: 20px; /* Approximation due to font substitution */
+  font-size: 20px;
   font-weight: 300;
-  line-height: 30px; /* Approximation due to font substitution */
+  line-height: 30px;
   text-align: center;
   margin-top: 10px;
 }
@@ -924,17 +924,17 @@ span.text-content {
 .related-tags span{
   font-family: Roboto;
   color: #09156e;
-  font-size: 18px; /* Approximation due to font substitution */
+  font-size: 18px;
   font-weight: 400;
-  line-height: 24px; /* Approximation due to font substitution */
+  line-height: 24px;
   text-align: left;
 }
 .tags a{
   font-family: Roboto;
   color: #8c8d8f;
-  font-size: 16px; /* Approximation due to font substitution */
+  font-size: 16px;
   font-weight: 300;
-  line-height: 26px; /* Approximation due to font substitution */
+  line-height: 26px;
   padding-left: 5px;
   padding-right: 5px;
   text-align: left;
@@ -948,18 +948,18 @@ span.text-content {
 .tags a.active{
   font-family: Roboto;
   color: #ffffff;
-  font-size: 16px; /* Approximation due to font substitution */
+  font-size: 16px;
   font-weight: 300;
-  line-height: 26px; /* Approximation due to font substitution */
+  line-height: 26px;
   text-align: left;
   background-color: #000055;
 }
 .tags a:hover{
   font-family: Roboto;
   color: #000055;
-  font-size: 16px; /* Approximation due to font substitution */
+  font-size: 16px;
   font-weight: 300;
-  line-height: 26px; /* Approximation due to font substitution */
+  line-height: 26px;
   text-decoration: underline;
   text-align: left;
   cursor: pointer;
@@ -982,9 +982,9 @@ span.text-content {
 .custom-modal-title{
   font-family: Roboto;
   color: #09156e;
-  font-size: 24px; /* Approximation due to font substitution */
+  font-size: 24px;
   font-weight: 400;
-  line-height: 24px; /* Approximation due to font substitution */
+  line-height: 24px;
   text-align: center;
 }
 .modal-content{
@@ -1002,27 +1002,27 @@ span.text-content {
   border-radius: 0;
   font-family: Roboto;
   color: #000000;
-  font-size: 16px; /* Approximation due to font substitution */
+  font-size: 16px;
   font-weight: 300;
-  line-height: 24px; /* Approximation due to font substitution */
+  line-height: 24px;
   text-align: left;
 }
 .file-lbl{
   font-family: Roboto;
   color: #000000;
-  font-size: 16px; /* Approximation due to font substitution */
+  font-size: 16px;
   font-weight: 300;
-  line-height: 24px; /* Approximation due to font substitution */
+  line-height: 24px;
   margin-right: 80px;
   text-align: left;
 }
 .file-status{
   font-family: Roboto;
   color: #000000;
-  font-size: 12px; /* Approximation due to font substitution */
+  font-size: 12px;
   font-weight: 300;
   font-style: italic;
-  line-height: 24px; /* Approximation due to font substitution */
+  line-height: 24px;
   text-align: left;
 }
 input[type=file]{
@@ -1083,9 +1083,9 @@ input[type=file]{
 .more-files{
   font-family: Roboto;
   color: #000055;
-  font-size: 12px; /* Approximation due to font substitution */
+  font-size: 12px;
   font-weight: 300;
-  line-height: 24px; /* Approximation due to font substitution */
+  line-height: 24px;
   margin-top: 10px;
   text-decoration: underline;
   text-align: left;
@@ -1101,8 +1101,13 @@ input[type=file]{
 #addOrder .radio label,
 #addOrder .radio select,
 #addCompany .radio label,
-#addCompany .radio select{
+#addCompany .radio select,
+#apply select{
   margin-right: 10px;
+}
+#apply input,
+#apply select{
+  vertical-align: bottom;
 }
 #addService select{
   margin-left: 10px;
@@ -1111,23 +1116,39 @@ input[type=file]{
 #addOrder .radio select,
 #addCompany .radio option,
 #addCompany .radio select,
-#addService select{
+#addService select,
+#apply select{
   background-color: #fff;
   font-family: Roboto;
   color: #000000;
-  font-size: 12px; /* Approximation due to font substitution */
+  font-size: 12px;
   font-weight: 300;
-  line-height: 24px; /* Approximation due to font substitution */
+  line-height: 24px;
   text-align: left;
 }
 #addOrder .radio select,
 #addCompany .radio select,
-#addService select{
+#addService select,
+#apply select{
   border-width: 1px;
   border-color: #000055;
   border-style: solid;
   height: 18px;
 }
+#apply select{
+  height: 26px;
+}
+#apply input{
+  width: 50px;
+  border: 1px solid #005;
+  height: 26px;
+}
+#apply label,
+#apply input
+{
+  margin-right: 5px;
+}
+
 #addDocument option,
 #addDocument select{
   background-color: #fff;
@@ -1152,7 +1173,8 @@ input[type=file]{
 }
 /*company inside page*/
 .company-areas,
-.news-areas{
+.news-areas,
+.order-areas{
   margin-bottom: 25px;
 }
 .news-areas .first-p{
@@ -1169,9 +1191,9 @@ input[type=file]{
 .news-areas .journalist{
   font-family: Roboto;
   color: #7f7f7f;
-  font-size: 12px; /* Approximation due to font substitution */
+  font-size: 12px;
   font-weight: 300;
-  line-height: 18px; /* Approximation due to font substitution */
+  line-height: 18px;
   text-align: left;
 }
 .news-areas i{
@@ -1184,9 +1206,9 @@ input[type=file]{
 .news-areas .watched{
   font-family: Roboto;
   color: #a2a498;
-  font-size: 12px; /* Approximation due to font substitution */
+  font-size: 12px;
   font-weight: 300;
-  line-height: 24px; /* Approximation due to font substitution */
+  line-height: 24px;
   text-align: left;
 }
 .news-areas img{
@@ -1216,9 +1238,9 @@ input[type=file]{
   margin-bottom: 20px;
   font-family: Roboto;
   color: #000055;
-  font-size: 18px; /* Approximation due to font substitution */
+  font-size: 18px;
   font-weight: 400;
-  line-height: 24px; /* Approximation due to font substitution */
+  line-height: 24px;
   text-align: left;
 }
 .news-areas .comment{
@@ -1230,9 +1252,9 @@ input[type=file]{
 .news-areas .subscribe-on-comments{
   font-family: Roboto;
   color: #1567bb;
-  font-size: 14px; /* Approximation due to font substitution */
+  font-size: 14px;
   font-weight: 300;
-  line-height: 24px; /* Approximation due to font substitution */
+  line-height: 24px;
   text-decoration: underline;
   text-align: left;
 }
@@ -1243,9 +1265,9 @@ input[type=file]{
 .news-areas .notify-label{
   font-family: Roboto;
   color: #000000;
-  font-size: 14px; /* Approximation due to font substitution */
+  font-size: 14px;
   font-weight: 300;
-  line-height: 24px; /* Approximation due to font substitution */
+  line-height: 24px;
   text-align: left;
 }
 .news-areas .submit-wrapper{
@@ -1260,9 +1282,9 @@ input[type=file]{
   font-family: Roboto;
   color: #fff;
   display: block;
-  font-size: 18px; /* Approximation due to font substitution */
+  font-size: 18px;
   font-weight: 300;
-  line-height: 40px; /* Approximation due to font substitution */
+  line-height: 40px;
   text-align: center;
   background-color: transparent;
   border: none;
@@ -1272,9 +1294,9 @@ input[type=file]{
 .side-section h2{
   font-family: 'Open Sans';
   color: #000055;
-  font-size: 18px; /* Approximation due to font substitution */
+  font-size: 18px;
   font-weight: 300;
-  line-height: 48px; /* Approximation due to font substitution */
+  line-height: 48px;
   text-align: left;
   margin-top: 0;
   line-height: 24px;
@@ -1282,17 +1304,17 @@ input[type=file]{
 .side-section a{
   font-family: Roboto;
   color: #8c8d8f;
-  font-size: 16px; /* Approximation due to font substitution */
+  font-size: 16px;
   font-weight: 300;
-  line-height: 26px; /* Approximation due to font substitution */
+  line-height: 26px;
   text-align: left;
 }
 .side-section a.active{
   font-family: Roboto;
   color: #000055;
-  font-size: 16px; /* Approximation due to font substitution */
+  font-size: 16px;
   font-weight: 300;
-  line-height: 26px; /* Approximation due to font substitution */
+  line-height: 26px;
   text-decoration: underline;
   text-align: left;
 }
@@ -1302,109 +1324,196 @@ input[type=file]{
 .side-section a p{
   font-family: Roboto;
   color: #000055;
-  font-size: 12px; /* Approximation due to font substitution */
+  font-size: 12px;
   font-weight: 300;
   text-align: left;
   line-height: 14px;
   text-align: justify;
 }
 .company-desc-area{
+  padding: 35px 25px 35px 0;
+  font-family: Roboto;
+  color: #000055;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left;
+  min-height: 470px;
+}
+.order-desc-area{
   background-color: #f8f8f8;
   padding: 35px 25px;
   font-family: Roboto;
   color: #000055;
-  font-size: 16px; /* Approximation due to font substitution */
+  font-size: 16px;
   font-weight: 300;
-  line-height: 24px; /* Approximation due to font substitution */
+  line-height: 24px;
   text-align: left;
   min-height: 470px;
 }
 .desc-title{
   font-family: Roboto;
   color: #000055;
-  font-size: 18px; /* Approximation due to font substitution */
+  font-size: 18px;
   font-weight: 400;
-  line-height: 30px; /* Approximation due to font substitution */
+  line-height: 30px;
   text-align: left;
 }
 .dark-hr{
-color: #005;
-background-color: #005;
-height: 1px;
-
+  color: #005;
+  background-color: #005;
+  height: 1px;
 }
-
-.company-desc-area ul {
+.company-desc-area .margin-top-keeper{
+  margin-top: 30px;
+}
+.company-desc-area .border-top-keeper{
+  margin: 30px 0 30px;
+  border-top: 2px solid #ccc;
+}
+.company-desc-area .agree-comments{
+  color: #ccc;
+}
+.company-desc-area .full-width{
+  width: 100%;
+  display: block;
+}
+.company-desc-area .add-note-trigger-wrapper{
+  height: 40px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 7px;
+}
+.company-desc-area .add-note-img{
+  margin-left: 15px;
+}
+.company-desc-area ul, .order-desc-area ul {
   margin: 0;
   padding: 0;
 }
-.company-desc-area ul.dashed {
+.company-desc-area ul.dashed, .order-desc-area ul.dashed {
   list-style-type: none;
 }
-.company-desc-area ul.dashed > li:before {
+.company-desc-area ul.dashed > li:before, .order-desc-area ul.dashed > li:before {
   content: "-";
   text-indent: -5px;
 }
-.company-desc-area .desc-chapter-title{
+.company-desc-area .desc-chapter-title, .order-desc-area .desc-chapter-title{
   margin-top: 20px;
   margin-bottom: 0;
 }
-.company-desc-area  .brief{
+.company-desc-area .brief, .order-desc-area  .brief{
   margin-bottom: 0;
 }
 
-.company-desc-area .content{
+.order-desc-area .content{
   background-color: #f8f8f8;
 }
-.company-desc-area .submit{
+.company-desc-area .submit, .order-desc-area .submit{
   text-align: center;
   height: 45px;
   margin-top: 40px;
   margin-bottom: 35px;
 }
-.company-desc-area .btn-action{
+.company-desc-area .btn-action, .order-desc-area .btn-action{
   width: 261px;
   background-color: #f8f8f8;
+}
+.company-desc-area .company-logo-bg{
+  background-color: #F8F8F8;
+  width: 190px;
+  height: 190px;
+  white-space: nowrap;
+  text-align: center; margin: 1em 0;
+}
+.company-desc-area .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.company-desc-area img{
+  vertical-align: middle;
+  max-height: 190px;
+  max-width: 190px;
+}
+.company-desc-area .subtitle{
+  color: #005;
+  font-size: 18px;
+}
+.company-desc-area .subvalue
+{
+  font-family: Roboto;
+  color: #5d5d5e;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: left;
+}
+.company-desc-area .submit .add-someth{
+  float:right;
+}
+.order-desc-area .btn-action:hover{
+  background-color: #005;
 }
 .company-contact-person{
   font-family: Roboto;
   color: #000055;
-  font-size: 18px; /* Approximation due to font substitution */
+  font-size: 18px;
   font-weight: 400;
-  line-height: 30px; /* Approximation due to font substitution */
+  line-height: 30px;
   margin-top: 35px;
   text-align: left;
 }
 .source-contacts-area .source-title,
-.company-contacts-area .company-title{
+.order-contacts-area .company-title{
   font-family: Roboto;
   color: #000055;
-  font-size: 18px; /* Approximation due to font substitution */
+  font-size: 18px;
   font-weight: 400;
-  line-height: 30px; /* Approximation due to font substitution */
+  line-height: 30px;
   text-align: left;
   margin-bottom: 0;
 }
+.company-contacts-area .subtitle{
+ font-family: Roboto;
+  color: #000055;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 0;
+}
 .source-contacts-area,
-.company-contacts-area{
+.company-contacts-area,
+.order-contacts-area{
   position: relative;
 }
+.company-contacts-area{
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+.toggled{
+  display: none;
+}
 .source-contacts-area span,
-.company-contacts-area span{
+.company-contacts-area span,
+.order-contacts-area span{
   font-family: Roboto;
   color: #5d5d5e;
-  font-size: 18px; /* Approximation due to font substitution */
+  font-size: 18px;
   font-weight: 300;
-  line-height: 30px; /* Approximation due to font substitution */
+  line-height: 30px;
   text-align: left;
 }
-.company-contacts-area .rate{
+.company-contacts-area .rate,
+.order-contacts-area .rate{
   position: absolute;
   top: 135px;
   left: 20px;
 }
 .source-contacts-area .social-round,
 .company-contacts-area .social-round,
+.order-contacts-area .social-round,
 .social-section .social-round{
   border-color: #03034a;
   width: 36px;
@@ -1417,16 +1526,27 @@ height: 1px;
 }
 .source-contacts-area .btn-social-icon:first-of-type,
 .company-contacts-area .btn-social-icon:first-of-type,
+.order-contacts-area .btn-social-icon:first-of-type,
 .social-section .btn-social-icon:first-of-type{
   padding-left:0;
 }
 .source-contacts-area .btn-social-icon:last-of-type,
-.company-contacts-area .btn-social-icon:last-of-type{
+.company-contacts-area .btn-social-icon:last-of-type,
+.order-contacts-area .btn-social-icon:last-of-type{
   padding-right:0;
+}
+.company-contacts-area .email-client{
+  margin: 0 auto;
+}
+.company-contacts-area .email-client,
+.company-contacts-area .email-client .content{
+  background-color: #f8f8f8;
 }
 .company-contacts-area .date,
 .source-contacts-area .hashtag,
-.company-contacts-area .hashtag{
+.company-contacts-area .hashtag,
+.order-contacts-area .date,
+.order-contacts-area .hashtag{
   font-family: Roboto;
   color: #a2a498;
   font-size: 14px;/* Approximation due to font substitution */
@@ -1437,18 +1557,20 @@ height: 1px;
 .source-contacts-area .date{
   font-family: Roboto;
   color: #a2a498;
-  font-size: 12px; /* Approximation due to font substitution */
+  font-size: 12px;
   font-weight: 300;
-  line-height: 24px; /* Approximation due to font substitution */
+  line-height: 24px;
   text-align: left;
 }
 .source-contacts-area .date-and-hashtags,
-.company-contacts-area .date-and-hashtags{
+.company-contacts-area .date-and-hashtags,
+.order-contacts-area .date-and-hashtags{
   margin-top: 40px;
 }
 .source-contacts-area .icon-comment,
-.company-contacts-area .icon-comment{
-  font-size: 16px; /* Approximation due to font substitution */
+.company-contacts-area .icon-comment,
+.order-contacts-area .icon-comment{
+  font-size: 16px;
   padding-left: 8px;
 }
 .source-contacts-area .time-wrapper{
@@ -1461,14 +1583,14 @@ height: 1px;
 .source-contacts-area .watched{
   font-family: Roboto;
   color: #a2a498;
-  font-size: 14px; /* Approximation due to font substitution */
+  font-size: 14px;
   font-weight: 300;
-  line-height: 24px; /* Approximation due to font substitution */
+  line-height: 24px;
   text-align: left;
 }
 .source-contacts-area .source-title-small,
 .source-contacts-area .source-company{
-  font-size: 14px; /* Approximation due to font substitution */
+  font-size: 14px;
   /*padding-left: 8px; */
 }
 .source-contacts-area .company-link{
@@ -1575,9 +1697,9 @@ height: 1px;
 .document-types span{
   font-family: Roboto;
   color: #09156e;
-  font-size: 18px; /* Approximation due to font substitution */
+  font-size: 18px;
   font-weight: 400;
-  line-height: 24px; /* Approximation due to font substitution */
+  line-height: 24px;
   text-align: left;
 }
 
@@ -1809,11 +1931,11 @@ height: 1px;
       display: none;
     }
     .counters h3{
-      font-size: 22px; /* Approximation due to font substitution */
+      font-size: 22px;
       display: inline;
     }
     .counters span{
-      font-size: 18px; /* Approximation due to font substitution */
+      font-size: 18px;
     }
     .logo-bottom{
       width:170px;
