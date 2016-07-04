@@ -1373,16 +1373,28 @@ input[type=file]{
 }
 .company-desc-area .agree-comments{
   color: #ccc;
+  font-size: 14px;
+  font-family: Roboto;
+  color: #000;
+  line-height: 1.714;
 }
 .company-desc-area .full-width{
   width: 100%;
   display: block;
+}
+.company-desc-area .hashtag{
+  font-size: 14px;
+  color:#A2A498;
+  line-height: 1.714;
 }
 .company-desc-area .add-note-trigger-wrapper{
   height: 40px;
   display: inline-block;
   vertical-align: top;
   padding: 7px;
+}
+.company-desc-area .add-note-trigger{
+  text-decoration: underline;
 }
 .company-desc-area .add-note-img{
   margin-left: 15px;
@@ -1408,6 +1420,15 @@ input[type=file]{
 
 .order-desc-area .content{
   background-color: #f8f8f8;
+}
+.company-desc-area :-moz-placeholder,
+.company-desc-area ::-webkit-input-placeholder{
+  font-size: 14px;
+  font-family: "Roboto";
+  color: #000;
+  line-height: 1.714;
+  text-align: left;
+  opacity: 0.502;
 }
 .company-desc-area .submit, .order-desc-area .submit{
   text-align: center;
@@ -1438,12 +1459,13 @@ input[type=file]{
 }
 .company-desc-area .subtitle{
   color: #005;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 1.875;
 }
 .company-desc-area .subvalue
 {
   font-family: Roboto;
-  color: #5d5d5e;
+  color: #5e5e5e;
   font-size: 14px;
   font-weight: 300;
   line-height: 30px;
@@ -1495,8 +1517,27 @@ input[type=file]{
 .toggled{
   display: none;
 }
+.company-contacts-area span{
+  font-size: 16px;
+  font-family: Roboto;
+  color: #005;
+  line-height: 1.875;
+}
+.company-contacts-area .phone-and-position
+{
+  font-size: 14px;
+  font-family: "Roboto";
+  color: #5e5e5e;
+}
+.company-contacts-area a
+{
+  font-size: 14px;
+  font-family: "Roboto";
+  color: #005;
+  line-height: 1.875;
+  text-decoration: underline;
+}
 .source-contacts-area span,
-.company-contacts-area span,
 .order-contacts-area span{
   font-family: Roboto;
   color: #5d5d5e;
