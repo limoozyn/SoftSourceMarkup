@@ -11,7 +11,7 @@ $('.modal').on('shown.bs.modal', function(e){
 $('.add-note-trigger').click(function(){
   $('.toggled').slideToggle();
 });
-$('#addCompany').on('change','#exampleInputFile' , function(){ 
+$('#addOrder').on('change','#exampleInputFile' , function(){
       var a = document.getElementById('exampleInputFile');
       var fileLabel = document.getElementById('fileLabel');
       console.log(a);
@@ -26,7 +26,7 @@ $('#addCompany').on('change','#exampleInputFile' , function(){
           fileLabel.innerHTML = theSplit[theSplit.length-1];
       }
 });
-$('#addCompany .radio input').change(function(){
+$('#addOrder .radio input').change(function(){
   $("select").prop('disabled', true);
   $(this).nextAll("select").prop('disabled', false);});
 }

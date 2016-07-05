@@ -190,7 +190,7 @@
                 <p class="subtitle">Контактная информация</p>
                 <div class="row"><div class="col-sm-6"><p><img src="images/phone-icon.png"><span class="icon-comment">Телефон</span></p></div><div class="col-sm-6"><span class="phone-and-position">063546912</span></div></div>
                 <div class="row"><div class="col-sm-6"><p><img src="images/site-icon.png"><span class="icon-comment">Сайт</span></p></div><div class="col-sm-6"><a href="#">1c.tm.com.ua</a></div></div>
-                <div class="row"><div class="col-sm-6"><p><img src="images/owner-icon.png"><span class="icon-comment">Владелец</span></p></div><div class="col-sm-6"><a href="#">Tetiana Tyatina</a></div></div>
+                <div class="row"><div class="col-sm-6"><p><img src="images/owner-icon.png"><span class="icon-comment">Владелец</span></p></div><div class="col-sm-6"><a href="person_profile.html">Tetiana Tyatina</a></div></div>
                 <div class="row"><div class="col-sm-6"><p><img src="images/position-icon.png"><span class="icon-comment">Позиция</span></p></div><div class="col-sm-6"><span class="phone-and-position">CEO</span></div></div>
                 <div class="col-sm-6 col-sm-offset-3">
                   <button class="btn-action-small email-client" data-toggle="modal" data-target="#emailClient">
@@ -353,58 +353,73 @@
         <div class="modal-body">
           <form>
             <fieldset class="form-group">
-              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Тема">
+              <input type="text" class="form-control" id="companyName" placeholder="Название">
             </fieldset>
             <fieldset class="form-group">
-              <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Описание"></textarea>
+              <textarea class="form-control" id="companyActivityArea" rows="3" placeholder="Направление деятельности компании"></textarea>
             </fieldset>
-            <fieldset class="form-group posRel">
-              <label for="exampleInputFile" class="file-lbl">Файл</label>
-              
-              <button id="exampleInputFileButton" class="btn-action-small posAbs">
-                <p class="download-content">Загрузить файл</p>
-              </button>
-              <input type="file" class="form-control-file" id="exampleInputFile">
-              <label for="exampleInputFile" class="file-status" id="fileLabel">Файл не загружен</label>
-              <small class="text-muted">Расширение файла: doc, docx, rtf, csv, xla, xls, xlsb, xlsx, xltx, odp, potx, ppa, ppt, pptx, txt, pdf, djvu</small>
-
-              <button class="more-files"><span >Загрузить больше файлов</span></button>
-            </fieldset>
-            <div class="radio">
-                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-              <label>
-                Бесплатно
-              </label>
+            <div class="SelectInOneLine">
+              <fieldset class="form-group first">
+                <label>
+                  Сотрудники
+                </label>
+                <select>
+                  <option value="5">от 5 до 10</option>
+                  <option value="10">от 10 до 30</option>
+                  <option value="30">от 30 до 100</option>
+                  <option value="100">больше 100</option>
+                </select>
+              </fieldset>
+              <fieldset class="form-group second">
+                <label>
+                  Страна
+                </label>
+                <select>
+                  <option value="5">Украина</option>
+                  <option value="10">Россия</option>
+                  <option value="30">Беларусия</option>
+                </select>
+              </fieldset>
             </div>
-            <div class="radio">
-                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-              <label>
-                За лид
-              </label><select disabled>
-                <option value="5">5$</option>
-                <option value="10">10$</option>
-                <option value="20">20$</option>
-                <option value="100">100$</option>
-              </select>
-            </div>
-            <div class="radio">
-                <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" >
-              <label>
-                За процент
-              </label><select disabled>
-                <option value="5">5$</option>
-                <option value="10">10$</option>
-                <option value="20">20$</option>
-                <option value="100">100$</option>
-              </select><select disabled>
-                <option value="12">12 месяцев</option>
-                <option value="6">6 месяцев</option>
-                <option value="3">3 месяца</option>
-                <option value="1">1 месяц</option>
-              </select>
+            <div class="SelectInOneLine">
+              <fieldset class="form-group first">
+                <label>
+                  Рейт
+                </label>
+                <select>
+                  <option value="5">от 5 до 10</option>
+                  <option value="10">от 10 до 30</option>
+                  <option value="30">от 30 до 100</option>
+                  <option value="100">больше 100</option>
+                </select>
+              </fieldset>
+              <fieldset class="form-group second">
+                <label>
+                  Главный офис
+                </label>
+                <select>
+                  <option value="1">Киев</option>
+                  <option value="2">Москва</option>
+                  <option value="3">Минск</option>
+                </select>
+              </fieldset>
             </div>
             <fieldset class="form-group">
               <input type="text" class="form-control" id="technology" placeholder="Технология">
+            </fieldset>
+            <fieldset class="form-group">
+              <input type="text" class="form-control" id="site" placeholder="Сайт">
+            </fieldset>
+            <fieldset class="form-group">
+              <input type="text" class="form-control" id="phone" placeholder="Телефон">
+            </fieldset>
+            <fieldset class="form-group posRel">
+              <label for="exampleInputFile" class="file-lbl">Логотип</label>
+              <button id="exampleInputFileButton" class="btn-action-small posAbs">
+                <p class="download-content">Загрузить логотип</p>
+              </button>
+              <input type="file" class="form-control-file" id="exampleInputFile">
+              <label for="exampleInputFile" class="file-status" id="fileLabel">Файл не загружен</label>
             </fieldset>
             <div class="centered-content">
               <button type="submit" class="btn-action-small">

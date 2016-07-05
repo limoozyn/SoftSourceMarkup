@@ -1007,6 +1007,28 @@ span.text-content {
   line-height: 24px;
   text-align: left;
 }
+.SelectInOneLine{
+  width: 100%;
+  display: block;
+  position: relative;
+  height: 25px;
+
+}
+.SelectInOneLine .form-group.first{
+  width: 50%;
+  position: absolute;
+  /*float: left;*/
+
+  /*display: inline-block;*/
+  left:0;
+}
+.SelectInOneLine .form-group.second {
+  /*float:right;*/
+  text-align: right;
+  width: 50%;
+  position: absolute;
+  right: 0;
+}
 .file-lbl{
   font-family: Roboto;
   color: #000000;
@@ -1024,6 +1046,9 @@ span.text-content {
   font-style: italic;
   line-height: 24px;
   text-align: left;
+}
+#addCompany .file-status{
+  margin-left: 120px;
 }
 input[type=file]{
   display: inline-block;
@@ -1045,13 +1070,19 @@ input[type=file]{
   position: relative;
 }
 #addOrder .posAbs,
-#addCompany .posAbs,
 #addService .posAbs
 {
   position: absolute;
   height: 32px;
   top: -4px;
   left:50px;
+}
+#addCompany .posAbs
+{
+  position: absolute;
+  height: 32px;
+  top: -4px;
+  left:70px;
 }
 #addDocument .posAbs{
   position: absolute;
@@ -1095,13 +1126,12 @@ input[type=file]{
   border: none;
 }
 #addOrder .radio input[type=radio],
-#addCompany .radio input[type=radio]{
+#addCompany input[type=radio]{
   margin-left: 0;
 }
 #addOrder .radio label,
 #addOrder .radio select,
-#addCompany .radio label,
-#addCompany .radio select,
+#addCompany label,
 #apply select{
   margin-right: 10px;
 }
@@ -1114,8 +1144,8 @@ input[type=file]{
 }
 #addOrder .radio option,
 #addOrder .radio select,
-#addCompany .radio option,
-#addCompany .radio select,
+#addCompany option,
+#addCompany select,
 #addService select,
 #apply select{
   background-color: #fff;
@@ -1127,7 +1157,7 @@ input[type=file]{
   text-align: left;
 }
 #addOrder .radio select,
-#addCompany .radio select,
+#addCompany select,
 #addService select,
 #apply select{
   border-width: 1px;
