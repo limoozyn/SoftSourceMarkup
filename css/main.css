@@ -719,9 +719,12 @@ li.active.border-on-hover
   margin: 1em 0;
   padding: 0;
 }
-.company-logo,
-.source-face{
+.company-logo{
   width: 100%;
+  height: auto;
+}
+.source-face{
+  width: auto;
   height: auto;
 }
 .contact-person-label{
