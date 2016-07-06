@@ -1625,6 +1625,9 @@ input[type=file]{
   line-height: 24px;/* Approximation due to font substitution */
   text-align: left;
 }
+.order-contacts-area .email-executor .content{
+  font-size: 12px;
+}
 .source-contacts-area .date{
   font-family: Roboto;
   color: #a2a498;

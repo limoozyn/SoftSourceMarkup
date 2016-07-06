@@ -75,7 +75,7 @@
       <div class="col-sm-12">
         <ol class="breadcrumb breadcrumb-custom without-rounded-corners">
           <li><a href="#">Главная </a></li>
-          <li><a href="#">Услуги</a></li>
+          <li><a href="#">Ресурсы</a></li>
           <li class="active">Mobile Developer Senior</li>
         </ol>
       </div>
@@ -108,25 +108,18 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8">
-        <div class="order-desc-area">
-          <p class="desc-title">Обо мне:</p>
-          <hr class="dark-hr">
-          <p class="brief">I love writing succinct, maintainable ruby code and I value clear communication above nearly everything else. My recent projects include an entire billing system for www.adjust.com, an asynchronous CSV importer with Soundcloud API integration for an as-yet unreleased project, and a new feature for the open source route_translator gem.  Given the choice when starting a new web app, I use Ruby 2.1 and Rails 4 with PostgreSQL, Coffeescript, Rspec, SASS and HAML. I am also extremely comfortable with jQuery, older versions of Rails, HTML, AJAX, and Javascript and I have experience working with AngularJS (although I'm currently learning Ember.js).  I love git (and github!) and made a gem for one of my previous employers (since downloaded over 17,000 times) adding github/pivotal tracker issue tracking to any git project, as well as automating the merge and deploy process.</p>
-        </div>
+          <div class="order-desc-area">
+            <p class="desc-title">Описание:</p>
+            <hr class="dark-hr">
+            <p class="brief">I love writing succinct, maintainable ruby code and I value clear communication above nearly everything else. My recent projects include an entire billing system for www.adjust.com, an asynchronous CSV importer with Soundcloud API integration for an as-yet unreleased project, and a new feature for the open source route_translator gem.  Given the choice when starting a new web app, I use Ruby 2.1 and Rails 4 with PostgreSQL, Coffeescript, Rspec, SASS and HAML. I am also extremely comfortable with jQuery, older versions of Rails, HTML, AJAX, and Javascript and I have experience working with AngularJS (although I'm currently learning Ember.js).  I love git (and github!) and made a gem for one of my previous employers (since downloaded over 17,000 times) adding github/pivotal tracker issue tracking to any git project, as well as automating the merge and deploy process.</p>
+          </div>
         </div>
         <div class="col-sm-4">
-          <div class="source-contacts-area">
+          <div class="order-contacts-area">
             <div class="row">
               <div class="col-sm-6">
                 <img class="source-face" src="images/dybenko-face.png">
-                <p class="date">
-                  <span class="time-wrapper"><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-02-14T08:00">14.02.2016</time></span>
-                  <span class="watched"><i class="fa fa-eye" aria-hidden="true"></i> 23</span>
-                </p>
-                <p></p>
-                <p><img src="images/skype-icon.png"><span class="icon-comment">vdybenko</span></p>
-                <p><img src="images/phone-icon.png"><span class="icon-comment">+38 (098)835 77 09</span></p>
-                <p><img src="images/geo-icon.png"><span class="icon-comment">Украина, Харьков</span></p>
+                <a href="person_profile.html"><p class="company-contact-person">Vladimir Dybenko</p></a>
                 <a class="btn btn-social-icon" href="#">
                   <div class="social-round"> <img src="images/fb-icon-company.png"></div>
                 </a>
@@ -138,13 +131,20 @@
                 </a>
               </div>
               <div class="col-sm-6">
-                <p class="source-title">Vladimir Dybenko</p>
-                <p><span class="source-title-small">Mobile Dev. Senior(A+iOs)</span></p>
-                <p><span class="source-company">Организация </span><a class="company-link" href="company_inside_page.html">Nabus Dev.</a></p>
+                <p class="company-title">Nabus Development</p>
+                <p><img src="images/staff-icon.png"><span class="icon-comment">10 сотрудников</span></p>
+                <p><img src="images/skype-icon.png"><span class="icon-comment">vdybenko</span></p>
+                <p><img src="images/phone-icon-gray.png"><span class="icon-comment">+38 (098)835 77 09</span></p>
+                <p><img src="images/geo-icon.png"><span class="icon-comment">Украина, Харьков</span></p>
+                <div class="col-sm-12">
+                  <button class="btn-action-small email-client email-executor" data-toggle="modal" data-target="#emailClient">
+                    <p class="content">E-mail исполнителю</p>
+                  </button>
+                </div>
+              </div>
+              <div class="col-sm-12 date-and-hashtags">
+                <p class="date"><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-02-14T08:00">14.02.2016</time></p>
                 <p><span class="hashtag">#bootstrap</span><span class="hashtag">#web design</span><span class="hashtag">#sass</span><span class="hashtag">#node</span></p>
-                <button class="btn-action-small email-client" data-toggle="modal" data-target="#emailClient">
-                  <p class="content">Написать E-mail</p>
-                </button>
               </div>
             </div>
           </div>
@@ -245,7 +245,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="custom-modal-title">Добавить услугу</h4>
+          <h4 class="custom-modal-title">Добавить ресурс</h4>
         </div>
         <div class="modal-body">
           <form>
