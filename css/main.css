@@ -1420,6 +1420,9 @@ input[type=file]{
   color:#A2A498;
   line-height: 1.714;
 }
+.company-desc-area .add-note-trigger-wrapper-high{
+  margin-top: 30px;
+}
 .company-desc-area .add-note-trigger-wrapper{
   height: 40px;
   display: inline-block;
@@ -1503,6 +1506,17 @@ input[type=file]{
   font-weight: 300;
   line-height: 30px;
   text-align: left;
+}
+.company-desc-area .contact-name{
+  font-size: 14px;
+  font-family: "Roboto";
+  color: #5E5E5E;
+}
+.company-desc-area .org-or-can-share{
+  font-size: 14px;
+  font-family: "Roboto";
+  color: #005;
+  text-decoration: underline;
 }
 .company-desc-area .submit .add-someth{
   float:right;
