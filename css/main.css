@@ -1053,6 +1053,15 @@ span.text-content {
 #addCompany .file-status{
   margin-left: 120px;
 }
+#addCompany .application-comment{
+  font-family: Roboto;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 24px;
+  text-align: left;
+}
 input[type=file]{
   display: inline-block;
   width:100px;
